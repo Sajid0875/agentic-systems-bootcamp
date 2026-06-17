@@ -1,0 +1,13 @@
+[project]
+name = "agent-ready-cli-toolkit"
+version = "0.1.0"
+description = "A mini Python framework inspired by modern agent tool runtimes."
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+no_implicit_optional = true
